@@ -1,0 +1,16 @@
+Technology	Used For in WECARE
+## Kotlin:
+Core programming language used to build the Android application and application logic
+## Jetpack:
+Compose	Builds the modern UI screens such as Patient Voice, Guardian Dashboard and onboarding
+Material 3:
+Provides consistent UI components, themes, buttons, cards and accessibility-friendly design
+Navigation Compose	Handles navigation between Login → Onboarding → Patient → Guardian → Care screens
+## Hilt:
+Dependency Injection	Manages and provides app dependencies such as repositories, services and backend components
+
+## StateFlow / SharedFlow:
+Manages reactive app state and instantly updates the UI when patient data, alerts or conversations change
+## Android Speech API:
+APIs	Converts the patient's voice → text for AI processing
+Text-to-Speech (TTS)	Converts the AI's response → spoken voice so the patient can interact naturally
